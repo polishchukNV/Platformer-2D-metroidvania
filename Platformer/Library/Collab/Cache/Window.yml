@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Animation.meta
+    - Assets/Animation/Charcher.meta
+    - Assets/Animation/Charcher/Charcher.controller
+    - Assets/Animation/Charcher/Charcher.controller.meta
+    - Assets/Animation/Charcher/Jump.anim
+    - Assets/Animation/Charcher/Jump.anim.meta
+    - Assets/Animation/Charcher/State.anim
+    - Assets/Animation/Charcher/State.anim.meta
+    - Assets/Animation/Charcher/Walk.anim
+    - Assets/Animation/Charcher/Walk.anim.meta
+    - Assets/Animation/LoadLevel.meta
+    - Assets/Animation/LoadLevel/Crossfade.controller
+    - Assets/Animation/LoadLevel/Crossfade.controller.meta
+    - Assets/Animation/LoadLevel/EndLevel.anim
+    - Assets/Animation/LoadLevel/EndLevel.anim.meta
+    - Assets/Animation/LoadLevel/OpenLevel.anim
+    - Assets/Animation/LoadLevel/OpenLevel.anim.meta
+    - Assets/Perfabs/Enemy/Angry Dot Enemy.prefab
+    - Assets/Perfabs/Enemy/Angry Dot Enemy.prefab.meta
+    - Assets/Perfabs/Enemy/Crawling Enemy.prefab
+    - Assets/Perfabs/Enemy/Crawling Enemy.prefab.meta
+    - Assets/Perfabs/Enemy/Dot Enemy.prefab
+    - Assets/Perfabs/Enemy/Dot Enemy.prefab.meta
+    - Assets/Perfabs/Enemy/Jumper Enemy.prefab
+    - Assets/Perfabs/Enemy/Jumper Enemy.prefab.meta
+    - Assets/Perfabs/Frame_1_ParticleCircle (3).prefab
+    - Assets/Perfabs/Frame_1_ParticleCircle (3).prefab.meta
+    - Assets/Perfabs/ShockParticles  Variant.prefab
+    - Assets/Perfabs/ShockParticles  Variant.prefab.meta
+    - Assets/Scenes/Menu.unity
+    - Assets/Scenes/Platformer(billet).unity
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/Test-Level.unity
+    - Assets/Scenes/Zone1.meta
+    - Assets/Scenes/Zone1/Zone1Block1.unity
+    - Assets/Scenes/Zone1/Zone1Block1.unity.meta
+    - Assets/Scenes/Zone1/Zone1Block2.unity
+    - Assets/Scenes/Zone1/Zone1Block2.unity.meta
+    - Assets/Script/Camera.meta
+    - Assets/Script/Camera/CameraEffect.cs
+    - Assets/Script/Camera/CameraEffect.cs.meta
+    - Assets/Script/Core/DialogueSystem/DialogueObject.cs
+    - Assets/Script/Core/DialogueSystem/DialogueObject.cs.meta
+    - Assets/Script/Core/LevelLoader.cs
+    - Assets/Script/Core/LevelLoader.cs.meta
+    - Assets/Script/DialogueController.cs
+    - Assets/Script/DialogueController.cs.meta
+    - Assets/Script/EnemyAI/AngryDotEnemy.cs
+    - Assets/Script/EnemyAI/AngryDotEnemy.cs.meta
+    - Assets/Script/EnemyAI/Bullet.cs
+    - Assets/Script/EnemyAI/Bullet.cs.meta
+    - Assets/Script/EnemyAI/CrawlingEnemy.cs
+    - Assets/Script/EnemyAI/CrawlingEnemy.cs.meta
+    - Assets/Script/EnemyAI/DotEnemy.cs
+    - Assets/Script/EnemyAI/Enemy.cs
+    - Assets/Script/EnemyAI/JumperEnemy.cs
+    - Assets/Script/EnemyAI/JumperEnemy.cs.meta
+    - Assets/Script/EnemyAI/ShootingEnemy.cs
+    - Assets/Script/EnemyAI/ShootingEnemy.cs.meta
+    - Assets/Script/Menu.meta
+    - Assets/Script/Menu/MenuButton.cs
+    - Assets/Script/Menu/MenuButton.cs.meta
+    - Assets/Script/Menu/MenuButtonController.cs
+    - Assets/Script/Menu/MenuButtonController.cs.meta
+    - Assets/Script/Object.meta
+    - Assets/Script/Object/CheckPoint.cs
+    - Assets/Script/Object/CheckPoint.cs.meta
+    - Assets/Script/Object/DisappearingPlatform.cs
+    - Assets/Script/Object/DisappearingPlatform.cs.meta
+    - Assets/Script/Object/Door.cs
+    - Assets/Script/Object/Door.cs.meta
+    - Assets/Script/Object/GameMeneger.cs
+    - Assets/Script/Object/GameMeneger.cs.meta
+    - Assets/Script/Object/NextZone.cs
+    - Assets/Script/Object/NextZone.cs.meta
+    - Assets/Script/Object/RotationObject.cs
+    - Assets/Script/Object/RotationObject.cs.meta
+    - Assets/Script/Object/Trampoline.cs
+    - Assets/Script/Object/Trampoline.cs.meta
+    - Assets/Script/Parallax.meta
+    - Assets/Script/Parallax/ParallaxBackground.cs
+    - Assets/Script/Parallax/ParallaxBackground.cs.meta
+    - Assets/Script/Parallax/ParallaxCamera.cs
+    - Assets/Script/Parallax/ParallaxCamera.cs.meta
+    - Assets/Script/Parallax/ParallaxLayer.cs
+    - Assets/Script/Parallax/ParallaxLayer.cs.meta
+    - Assets/Script/Player.meta
+    - Assets/Script/Player/NewPlayer.cs
+    - Assets/Script/Player/NewPlayer.cs.meta
+    - Assets/Script/Player/PlayerUI.cs
+    - Assets/Script/Player/PlayerUI.cs.meta
+    - "Assets/Script/Player/\u0421urrency.cs"
+    - "Assets/Script/Player/\u0421urrency.cs.meta"
+    - Assets/Sprite/BlueWizard.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00000.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00000.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00001.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00001.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00002.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00002.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00003.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00003.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00004.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00004.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00005.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00005.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00006.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00006.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00007.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00007.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00008.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00008.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00009.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00009.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00010.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00010.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00011.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00011.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00012.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00012.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00013.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00013.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00014.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00014.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00015.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00015.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00016.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00016.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00017.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00017.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00018.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00018.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00019.png
+    - Assets/Sprite/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00019.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/CharaWizardJump_00000.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/CharaWizardJump_00000.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/CharaWizardJump_00001.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/CharaWizardJump_00001.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/CharaWizardJump_00002.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/CharaWizardJump_00002.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/CharaWizardJump_00003.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/CharaWizardJump_00003.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/CharaWizardJump_00004.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/CharaWizardJump_00004.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/CharaWizardJump_00005.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/CharaWizardJump_00005.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/CharaWizardJump_00006.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/CharaWizardJump_00006.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/CharaWizardJump_00007.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/CharaWizardJump_00007.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00000.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00000.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00001.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00001.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00002.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00002.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00003.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00003.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00004.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00004.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00005.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00005.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00006.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00006.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00007.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00007.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00008.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00008.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00009.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00009.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00010.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00010.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00011.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00011.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00012.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00012.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00013.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00013.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00014.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00014.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00015.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00015.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00000.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00000.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00001.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00001.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00002.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00002.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00003.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00003.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00004.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00004.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00005.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00005.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00006.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00006.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00007.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00007.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00008.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00008.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00009.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00009.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00010.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00010.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00011.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00011.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00012.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00012.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00013.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00013.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00014.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00014.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00015.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/Dash3/Dash3_00015.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00000.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00000.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00001.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00001.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00002.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00002.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00003.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00003.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00004.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00004.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00005.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00005.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00006.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00006.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00007.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00007.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00008.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00008.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00009.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00009.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00010.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00010.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00011.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00011.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00012.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00012.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00013.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00013.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00014.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00014.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00015.png
+    - Assets/Sprite/BlueWizard/2BlueWizardJump/DashEffect/BlueWizardDash_00015.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00000.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00000.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00001.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00001.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00002.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00002.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00003.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00003.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00004.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00004.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00005.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00005.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00006.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00006.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00007.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00007.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00008.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00008.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00009.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00009.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00010.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00010.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00011.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00011.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00012.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00012.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00013.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00013.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00014.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00014.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00015.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00015.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00016.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00016.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00017.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00017.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00018.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00018.png.meta
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00019.png
+    - Assets/Sprite/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00019.png.meta
+    - Assets/XML/NewConversationGraph.xml
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0

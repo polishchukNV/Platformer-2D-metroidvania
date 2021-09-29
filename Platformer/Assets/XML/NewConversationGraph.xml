@@ -1,0 +1,20 @@
+<dialogue> but this text 
+    <node>
+        <npc>Hellow Word</npc>
+        <answers></answers>
+    </node>
+    <node>
+        <npc>You asd </npc>
+    <answers>
+        <answer tonode = "1" ><txt> Yes</txt></answer>
+        <answer tonode = "3" ><txt> No</txt></answer>
+    </answers>
+    </node>
+    <node>
+        <npc>safsaf</npc>
+         <answers>
+        </answers>
+       
+     </node>
+</dialogue>
+    
